@@ -1,0 +1,28 @@
+{
+  "name": "cordova-plugin-tonegenerator",
+  "version": "1.0.0",
+  "description": "Cordova Tone Generator Plugin",
+  "cordova": {
+    "id": "cordova-plugin-tonegenerator",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sdesalas/cordova-plugin-tonegenerator"
+  },
+  "keywords": [
+    "cordova",
+    "tone",
+    "generator",
+    "audio",
+    "synthesizer",
+    "sound",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "author": "Steven de Salas",
+  "license": "MIT"
+}
