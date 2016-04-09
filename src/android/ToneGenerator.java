@@ -40,7 +40,7 @@ public class ToneGenerator extends CordovaPlugin  {
 
     boolean isRunning = false; 
     Thread t;
-    int sampleRate = 22000;
+    int sampleRate = 8000;
     int frequency;
     int volume;
     int waveType;
