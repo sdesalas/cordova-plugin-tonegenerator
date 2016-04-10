@@ -32,7 +32,7 @@ Plays a tone
 </pre>
 
 
-cordova.plugins.magnetometer.frequency
+cordova.plugins.magnetometer.frequency()
 -------------------------------------------
 
 Sets the frequency of the generated tone in Hertz. The human audible range is 60hz to 16,000hz.
@@ -44,7 +44,7 @@ Sets the frequency of the generated tone in Hertz. The human audible range is 60
 </pre>
 
 
-cordova.plugins.magnetometer.volume
+cordova.plugins.magnetometer.volume()
 -------------------------------------------
 
 Sets the volume (amplitude) of the generated tone. This should be a value between 0 and 255.
@@ -56,7 +56,7 @@ Sets the volume (amplitude) of the generated tone. This should be a value betwee
 </pre>
 
 
-cordova.plugins.magnetometer.stop
+cordova.plugins.magnetometer.stop()
 --------------------------------
 
 Stops playing the generated tone.
