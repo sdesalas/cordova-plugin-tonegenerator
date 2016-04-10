@@ -35,7 +35,9 @@ Default values as follows:
 
 - frequency: 440 (hz)
 - volume: 255 (max)
-- waveType: 0 (sine)
+- waveType: 0 (Sine Wave)
+
+Currently, only Sine Waves are supported.
 
 cordova.plugins.tonegenerator.frequency()
 -------------------------------------------
