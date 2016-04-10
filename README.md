@@ -2,7 +2,7 @@
 
 An arbitrary tone generation plugin for cordova apps.
 
-It generates raw tones at specific frequencies and amplitudes, this can be used to produce a sound response to various user actions, or to generate an electrical waveform through the headphone output jack to drive certain low-voltage AC electrical motors.
+It generates raw tones at specific frequencies and amplitudes, this can be used to produce an interactive pitch response to various user actions, or to generate an electrical waveform through the headphone output jack to drive low-voltage AC electrical motors.
 
 See [this page](https://github.com/sdesalas/cordova-magnetometer-app/blob/master/www/index.html) for a basic sample cordova app using this plugin. 
 
@@ -23,7 +23,7 @@ Methods
 cordova.plugins.tonegenerator.play()
 -------------------------------------------
 
-Plays a tone
+Starts playing a tone. 
 
 <pre>
 <code>
@@ -31,11 +31,18 @@ Plays a tone
 </code>
 </pre>
 
+Default values as follows: 
+
+- frequency: 440 (hz)
+- volume: 255 (max)
+- waveType: 0 (sine)
 
 cordova.plugins.magnetometer.frequency()
 -------------------------------------------
 
-Sets the frequency of the generated tone in Hertz. The human audible range is 60hz to 16,000hz.
+Sets the frequency of the generated tone (in Hertz). The human audible range is 60hz to 16,000hz.
+
+This method can be used to update the frequency while a tone is playing.
 
 <pre>
 <code>
@@ -48,6 +55,8 @@ cordova.plugins.magnetometer.volume()
 -------------------------------------------
 
 Sets the volume (amplitude) of the generated tone. This should be a value between 0 and 255.
+
+This method can be used to update the frequency while a tone is playing.
 
 <pre>
 <code>
