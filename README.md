@@ -56,7 +56,7 @@ cordova.plugins.tonegenerator.volume()
 
 Sets the volume (amplitude) of the generated tone. This should be a value between 0 and 255.
 
-This method can be used to update the frequency while a tone is playing.
+This method can be used to update the volume while a tone is playing.
 
 <pre>
 <code>
