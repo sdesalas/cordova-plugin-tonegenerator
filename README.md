@@ -37,7 +37,7 @@ Default values as follows:
 - volume: 255 (max)
 - waveType: 0 (sine)
 
-cordova.plugins.magnetometer.frequency()
+cordova.plugins.tonegenerator.frequency()
 -------------------------------------------
 
 Sets the frequency of the generated tone (in Hertz). The human audible range is 60hz to 16,000hz.
@@ -46,12 +46,12 @@ This method can be used to update the frequency while a tone is playing.
 
 <pre>
 <code>
-  cordova.plugins.magnetometer.frequency(hertz)
+  cordova.plugins.tonegenerator.frequency(hertz)
 </code>
 </pre>
 
 
-cordova.plugins.magnetometer.volume()
+cordova.plugins.tonegenerator.volume()
 -------------------------------------------
 
 Sets the volume (amplitude) of the generated tone. This should be a value between 0 and 255.
@@ -60,19 +60,19 @@ This method can be used to update the frequency while a tone is playing.
 
 <pre>
 <code>
-  cordova.plugins.magnetometer.volume(volume)
+  cordova.plugins.tonegenerator.volume(volume)
 </code>
 </pre>
 
 
-cordova.plugins.magnetometer.stop()
+cordova.plugins.tonegenerator.stop()
 --------------------------------
 
 Stops playing the generated tone.
 
 <pre>
 <code>
-  cordova.plugins.magnetometer.stop()
+  cordova.plugins.tonegenerator.stop()
 </code>
 </pre>
 
