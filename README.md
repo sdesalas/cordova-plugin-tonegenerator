@@ -2,7 +2,7 @@
 
 An arbitrary tone generation plugin for cordova apps.
 
-It generates raw tones at specific frequencies and amplitudes, this can be used to produce an interactive pitch response to various user actions, or to generate an electrical waveform through the headphone output jack to drive low-voltage AC electrical motors.
+It generates raw tones at specific frequencies and amplitudes, this can be used to produce an interactive pitch response to various user actions, or to generate an electrical waveform through the headphone output jack to drive low-power AC electrical motors.
 
 See [this page](https://github.com/sdesalas/cordova-magnetometer-app/blob/master/www/index.html) for a basic sample cordova app using this plugin. 
 
