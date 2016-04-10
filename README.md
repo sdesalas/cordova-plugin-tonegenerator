@@ -51,7 +51,7 @@ Sets the volume (amplitude) of the generated tone. This should be a value betwee
 
 <pre>
 <code>
-  cordova.plugins.magnetometer.volume(hertz)
+  cordova.plugins.magnetometer.volume(volume)
 </code>
 </pre>
 
