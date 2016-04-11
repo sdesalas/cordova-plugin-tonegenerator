@@ -8,7 +8,7 @@ var ToneGenerator = function(){};
 ToneGenerator.prototype = {
   play: function(frequency, volume, waveType) {
     frequency = frequency || 440;
-    volume = volume || 255;
+    volume = volume || 127;
     if (volume > 255) volume = 255;
     if (volume < 0) volume = 0;
     waveType = waveType || 1;
