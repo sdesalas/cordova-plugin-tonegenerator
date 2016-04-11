@@ -27,13 +27,12 @@ Starts playing a tone.
 
 <pre>
 <code>
-  cordova.plugins.tonegenerator.play(frequency, amplitude, waveType)
+  cordova.plugins.tonegenerator.play(frequency, [amplitude], [waveType])
 </code>
 </pre>
 
 Default values as follows: 
 
-- frequency: 440 (hz)
 - volume: 255 (max)
 - waveType: 0 (Sine Wave)
 
