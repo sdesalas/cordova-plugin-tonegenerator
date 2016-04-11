@@ -33,7 +33,7 @@ Starts playing a tone.
 
 Default values as follows: 
 
-- volume: 255 (max)
+- volume: 127 (50%, max is 255)
 - waveType: 0 (Sine Wave)
 
 Currently, only Sine Waves are supported.
