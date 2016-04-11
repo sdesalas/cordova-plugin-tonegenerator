@@ -27,7 +27,7 @@ Starts playing a tone.
 
 <pre>
 <code>
-  cordova.plugins.tonegenerator.play(frequency, [amplitude], [waveType])
+  cordova.plugins.tonegenerator.play(frequency [, amplitude] [, waveType])
 </code>
 </pre>
 
